@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "run-p \"build-only {@}\" \"build-app {@}\" -- && npm run modify-manifest",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "build-only": "npm run build",
     "build-app": "vite build --config vite.app.config.ts && mv dist-app/* dist",
     "type-check": "vue-tsc --build",
     "modify-manifest": "tsx scripts/modify-manifest.ts"

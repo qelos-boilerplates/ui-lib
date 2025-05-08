@@ -10,7 +10,7 @@
       {
         "name": "{{PACKAGE_NAME}}",
         "description": "",
-        "html": "<script type=\"text/javascript\" src=\"{{PUBLIC_URL}}/qelos-ui-lib.umd.cjs\"></script>\n<link rel=\"stylesheet\" href=\"{{PUBLIC_URL}}/qelos-ui-lib.css\">",
+        "html": "<script type=\"text/javascript\" src=\"{{PUBLIC_URL}}/{{PACKAGE_NAME}}.umd.cjs\"></script>\n<link rel=\"stylesheet\" href=\"{{PUBLIC_URL}}/{{PACKAGE_NAME}}.css\">",
         "active": true
       }
     ],
